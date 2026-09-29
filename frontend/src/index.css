@@ -1,0 +1,9 @@
+:root { color-scheme: dark; font-family: "Space Grotesk", sans-serif; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+body, button, a { font-family: "Space Grotesk", sans-serif; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, a:focus-visible { outline: 2px solid #f0c76b; outline-offset: 4px; }
+#root { min-height: 100vh; }
+::selection { color: #16090f; background: #ffe5a2; }

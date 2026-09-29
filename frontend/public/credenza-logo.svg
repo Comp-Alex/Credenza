@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="170" viewBox="0 0 720 170" role="img" aria-labelledby="title description">
+  <title id="title">Credenza</title>
+  <desc id="description">Showcase your skills. Build your future.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0bd"/><stop offset=".48" stop-color="#e6b85c"/><stop offset="1" stop-color="#b86b35"/></linearGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7a293f"/><stop offset=".72" stop-color="#3f1727"/><stop offset="1" stop-color="#a14d42"/></linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g transform="translate(8 2)" stroke="url(#gold)" stroke-width="2" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M94 8 158 43 113 69 84 53 48 73 48 105 84 126 116 108 160 133 94 166 17 122 17 57Z" fill="url(#shell)"/>
+    <path d="m77 79 47-27 47 27-47 28Z" fill="url(#shell)"/>
+    <path d="m77 105 47-27 47 27-47 28Z" fill="url(#shell)"/>
+    <path d="m78 132 46-27 47 27-47 27Z" fill="url(#shell)"/>
+  </g>
+  <text x="225" y="101" fill="url(#gold)" font-family="Space Grotesk, Montserrat, sans-serif" font-size="65" font-weight="500" letter-spacing="10">CREDENZA</text>
+  <text x="232" y="137" fill="#e8d5b3" font-family="DM Mono, monospace" font-size="12" letter-spacing="4">SHOWCASE YOUR <tspan fill="#f0c76b" font-weight="700">SKILLS</tspan><tspan fill="#e8d5b3">. BUILD YOUR </tspan><tspan fill="#f0c76b" font-weight="700">FUTURE.</tspan></text>
+</svg>
